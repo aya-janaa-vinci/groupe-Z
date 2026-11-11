@@ -1,0 +1,47 @@
+/* Le fond sombre qui recouvre la page */
+.anti-procra-fond {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  background: rgba(20, 10, 40, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-family: sans-serif;
+}
+
+/* Le perso arrive en courant depuis la gauche */
+.anti-procra-perso {
+  width: 200px;
+  image-rendering: pixelated;
+  animation: anti-procra-course 1.2s ease-out;
+}
+
+@keyframes anti-procra-course {
+  from { transform: translateX(-120vw); }
+  to   { transform: translateX(0); }
+}
+
+.anti-procra-bulle {
+  background: white;
+  color: black;
+  border: 4px solid #2b1d1d;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  max-width: 420px;
+  text-align: center;
+}
+
+.anti-procra-bouton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #ffd60a;
+  color: black;
+  cursor: pointer;
+}

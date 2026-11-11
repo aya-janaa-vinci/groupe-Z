@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body { width: 260px; font-family: sans-serif; padding: 8px; }
+      h1 { font-size: 18px; margin: 0 0 12px; }
+      label { display: block; margin-top: 10px; font-size: 13px; }
+      input { width: 100%; box-sizing: border-box; padding: 6px; margin-top: 4px; }
+      button { margin-top: 12px; width: 100%; padding: 8px; cursor: pointer; }
+      .compteur { margin-top: 14px; font-size: 14px; text-align: center; }
+    </style>
+  </head>
+  <body>
+    <h1>Anti-Procra</h1>
+
+    <label for="sites">Sites interdits (separes par des virgules)</label>
+    <input id="sites" type="text" placeholder="youtube.com, instagram.com" />
+
+    <label for="minutes">Temps limite (en minutes)</label>
+    <input id="minutes" type="number" min="0.1" step="0.1" />
+
+    <button id="enregistrer">Enregistrer</button>
+
+    <p class="compteur">Tu t'es fait attraper <strong id="attrape">0</strong> fois</p>
+    <button id="reset">Remettre le compteur a zero</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Anti-Procra",
+  "version": "1.0",
+  "description": "Un petit perso debarque sur ton ecran quand tu passes trop de temps sur un site.",
+  "icons": {
+    "128": "icon.png" 
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["perso.gif", "musique.mp3"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
