@@ -12,8 +12,8 @@ Based on the [official Chrome tutorial](https://developer.chrome.com/docs/extens
 
 ## Authors
 
-Balci Arda
-Hajji Zahra
-Hounaid Ranya
-Janaa Aya
-Yousrani Soumaya
+- Balci Arda
+- Hajji Zahra
+- Houmaid Ranya
+- Janaa Aya
+- Yousrani Soumaya

@@ -28,8 +28,8 @@ A small character shows up on your screen when you spend too much time on a webs
 
 ## Authors
 
-Balci Arda
-Hajji Zahra
-Houmaid Ranya
-Janaa Aya
-Yousrani Soumaya
+- Balci Arda
+- Hajji Zahra
+- Houmaid Ranya
+- Janaa Aya
+- Yousrani Soumaya

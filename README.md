@@ -25,8 +25,10 @@ Also works on Edge (`edge://extensions`) and Brave.
 
 ## Authors
 
-Balci Arda
-Hajji Zahra
-Hounaid Ranya
-Janaa Aya
-Yousrani Soumaya
+Group Z
+
+- Balci Arda
+- Hajji Zahra
+- Houmaid Ranya
+- Janaa Aya
+- Yousrani Soumaya
